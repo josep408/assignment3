@@ -1,12 +1,42 @@
-<DOCTYPE <!DOCTYPE html>
-<html lang ="en">
-    <head>
-        <link rel="stylesheet" href="css/app.css" type="text/css" />
-        <script type="text/javascript" src="js/styles.js"></script>
-    </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Pixabay Imporved Image Search</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/app.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script type="text/javascript" src="js/styles.js"></script>
+	
+</head>
+
 <body>
-    
-    
-    
+	<div class ="container">
+	<div class="jumbotron">
+		
+		<h1>Pixabay Image Search</h1>
+	</div>
+	<div class="loading">Loading...</div>
+<form>
+ 	
+		<div class ="float">
+	<div class="form-group row"><label>Enter keyword</label> <input type="text"  id="keyword" name="keyword" placeholder ="keyword"/></div>
+	<fieldset class="form-group">
+	<div class="form-group row"><label>Orientation</label><select id ="orientation" name="orientation">
+		<option value="">Select one</option>
+		<option value="h">Horizontal</option>
+		<option value="v">Vertical</option>
+	</select></div>
+
+	<div class="img1"></div>
+	<div class="img2"></div>
+	<div class="img3"></div>
+	<div class="img4"></div>
+	
+	<div class="form-group row"><button id="search" type="button" class="btn btn-dark">Search</button></div>
+	
+</form>	
+	
+	
 </body>
 </html>
