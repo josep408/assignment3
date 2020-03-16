@@ -1,3 +1,8 @@
+
+.container{
+	background-color: black;
+	width: 1800px;
+}
 .text-center{
 	text-align: center;
 }
@@ -9,9 +14,12 @@
 }
 
 .jumbotron {
+
 	color: #2c3e50;
-	background: #ecf0f1
-	padding-left: 1200;
+	background: lightgreen;
+	padding-left: 400px;
+	padding-right: 400px;
+	padding-top: 200px;
 }
 
 .flex-container {
@@ -25,15 +33,7 @@
 	margin: 10px;
 }
 
-
-
-#horizon {
-	width: 500px;
-	height: 250px;
-
-}
-
-#vertical{
-	width: 250px;
-	height: 500px;
+.float{
+	float: left;
+	font-variant-alternates: normal;
 }
