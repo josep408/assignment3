@@ -1,7 +1,7 @@
 
 .container{
 	background-color: black;
-	width: 1800px;
+	width: 2100px;
 }
 .text-center{
 	text-align: center;
@@ -15,11 +15,12 @@
 
 .jumbotron {
 
-	color: #2c3e50;
+	color: darkblue;
 	background: lightgreen;
 	padding-left: 400px;
 	padding-right: 400px;
 	padding-top: 200px;
+	width: auto;
 }
 
 .flex-container {
@@ -35,5 +36,24 @@
 
 .float{
 	float: left;
-	font-variant-alternates: normal;
 }
+
+.pagination-bar{
+  display: absolute;
+  width: 98%;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 20px;
+  margin-top: 10px;
+  background-color: brown;
+  
+}
+
+.pagination-bar a {
+    color: red;
+    padding: 8px 5px;
+    text-decoration: none;
+    margin: 10px;
+    color: red;
+}
+
